@@ -2,8 +2,9 @@ import Plugin from '@goosemod/plugin';
 
 class Sidebar extends Plugin {
     onImport() {
-      const sidebar = document.getElementsByClassName("sidebar-1tnWFu")[0];
+      
       goosemod.patcher.commands.add("sidebar", "collapse sidebar", () => {
+	const sidebar = document.getElementsByClassName("sidebar-1tnWFu")[0];
         if (sidebar.style.display === 'none') {
           sidebar.style.display = '';
         } else {
