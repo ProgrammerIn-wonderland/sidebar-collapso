@@ -1,11 +1,6 @@
-
-
 import Plugin from '@goosemod/plugin';
 
-
-
-
-class IDInAuthor extends Plugin {
+class Sidebar extends Plugin {
     onImport() {
       const sidebar = document.getElementsByClassName("sidebar-1tnWFu")[0];
       goosemod.patcher.commands.add("sidebar", "collapse sidebar", () => {
@@ -18,8 +13,8 @@ class IDInAuthor extends Plugin {
     }
 
     onRemove() {
-      goosemod.patcher.commands.remove("sidebar");
+      
     }
 };
 
-export default new IDInAuthor();
+export default new Sidebar();

@@ -2,7 +2,7 @@
     "name": "Siderbar collapso",
     "main": "src/index.js",
     "version": "1.0.0",
-    "description": "adds the /sidebar command to collapse the sidebar!.",
+    "description": "adds the /sidebar command to collapse the sidebar!",
     "tags": ["plugin", "sidebar"],
     "authors": ["247349845298249728"],
     "images": ["https://alicesworld.tech/assets/images/sidebar.png"]
